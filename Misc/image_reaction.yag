@@ -12,9 +12,9 @@
 */}}
 {{$delete := false}}
 {{/*Set this to true if you want to delete all messages that are not images or videos*/}}
-{{$react := true}}
+{{$reply := true}}
 {{/*Set this to true if you want yagpdb to react with the emojis*/}}
-{{$emojis := cslice "❤" "checkmark:705738821425299527" "cross:705738821110595607"}}
+{{$print := cslice "Please remember to compliment the drawing above yours if it hasnt been done so already!"}}
 {{/*Replace the emojis if you want. Default emojis will be the unicode like 👎 or 👍 and custom emojis will have to be emojiname:emojiid*/}}
 
 
